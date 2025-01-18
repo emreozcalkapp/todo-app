@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    background-color: #0D0714;
+}
+.container{
+    width: 432px;
+    height: auto;
+    margin: auto;
+    padding-top: 100px;
+}
+form{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+.todo-input{
+    border: 1px solid #3E1671;
+    border-radius: 10px;
+    background-color: #0D0714;
+    width: 381px;
+    padding-block: 14px;
+    padding-left: 15px;
+    color: #777777;
+}
+::placeholder{
+    color: #777777;
+}
+.button-submit{
+    background-color: #9E78CF;
+    border: none;
+    color: white;
+    padding: 14px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.todo-list{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.todo-list p{
+    background-color: #15101C;
+    padding-block: 22px;
+    padding-inline: 21px;
+    border-radius: 10px;
+    color: #9E78CF;
+}
+.todo-completed-list p{
+    background-color: #15101C;
+    padding-block: 22px;
+    padding-inline: 21px;
+    border-radius: 10px;
+    color: #9E78CF;
+}
+.todo-list-article{
+    background-color: #15101C;
+    padding-block: 22px;
+    padding-inline: 21px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.uncompleted-todo{
+    color: #9E78CF;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.button-completed{
+    background-color: #15101C;
+    border: none;
+    color: #9E78CF;
+    cursor: pointer;
+    font-size: 13px;
+}
+.button-completed:hover{
+    color: #78CFB0;
+    font-size: 14px;
+}
+.button-edit{
+    background-color: #15101C;
+    border: none;
+    color: #9E78CF;
+    cursor: pointer;
+    font-size: 13px;
+}
+.button-edit:hover{
+    color: #78CFB0;
+    font-size: 14px;
+}
+.button-delete{
+    background-color: #15101C;
+    border: none;
+    color: #9E78CF;
+    cursor: pointer;
+    font-size: 13px;
+}
+.button-delete:hover{
+    color: #78CFB0;
+    font-size: 14px;
+}
+.button-completed-delete{
+    background-color: #15101C;
+    border: none;
+    color: #9E78CF;
+    cursor: pointer;
+    font-size: 13px;
+}
+.button-completed-delete:hover{
+    color: #78CFB0;
+    font-size: 14px;
+}
+.todo-completed-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.todo-completed-article{
+    background-color: #15101C;
+    padding-block: 22px;
+    padding-inline: 21px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.completed-todo{
+    color: #78CFB0;
+    margin-right: 10px;
+}
+.uncompleted-title{
+    color: #9E78CF;
+}
+.completed-title{
+    color: #78CFB0;
+}
